@@ -10,7 +10,7 @@
 <script src="jsh256class.js"></script>
 ````
 ---
-#### ...And make a single function(Hex String Output):
+#### ...And make a single function call(Hex String Output):
 ```javascript
 const myjsh = new JsH256();
 let   mystr = "Hello World!";
