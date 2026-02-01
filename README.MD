@@ -1,16 +1,16 @@
 ## JstupidHash 256-Bit Message Digest
-### A table-driven Message Digest (Hash routine) for either vanilla Javascript or Js-like languages. There are no 'blocks' needed for processing, so it really acts like a stream digest with a minimal 15-round mix as an endgame.
+#### A table-driven Message Digest (Hash routine) for either vanilla Javascript or Js-like languages. There are no 'blocks' needed for processing, so it really acts like a stream digest with a minimal 15-round mix as an endgame.
 
 ### THIS IS NOT A SECURE HASH! THIS IS INTENDED TO BE USED ONLY AS A LIGHTWEIGHT Js HASHING ROUTINE; IT IS NOT TO BE USED ALONGSIDE MODERN CRYPTOGRAPHICALLY SECURE ALGORITHMS!
 
-### This is just how simple it is to use...
+### It's very simple to use...
 ---
-#### Reference the class (or just use it inline)
+#### Just reference the class (or place the class inline)
 ````javascript
 <script src="jsh256class.js"></script>
 ````
 ---
-#### Usage(Hex String Output):
+m#### ...And make a single function(Hex String Output):
 ```javascript
 const myjsh = new JsH256();
 let   mystr = "Hello World!";
